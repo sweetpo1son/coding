@@ -1,5 +1,6 @@
 import math
 from nt import prime_list_exclu
+print('test')
 list=prime_list_exclu(7072)
 s=set()
 def find_break(bound,list):
