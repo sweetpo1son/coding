@@ -40,3 +40,7 @@ def partitions(n):
         a[k] = x + y
         y = x + y - 1
         yield a[:k + 1]
+        
+def bindigits(n, bits):
+    s = bin(n & int("1"*bits, 2))[2:]
+    return ("{0:0>%s}" % (bits)).format(s)
