@@ -6,7 +6,7 @@ import os
 
 upperMB=30
 numb=2
-bk="algorith"
+bk="978-0199282012"
 way=3
 
 def downld(u,ind,til):
